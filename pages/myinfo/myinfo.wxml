@@ -1,0 +1,52 @@
+<view>
+  <view class="infoPart">
+    <view class="headline">
+      <p>用户ID</p>
+      <view bindtap="tapSetting">设置</view>
+    </view>
+    <view class="avatar">
+      <image src="../../头像.jpg"></image>
+      <view class="userName">
+        <view>昵称 女</view>
+        <view>
+          <text>关注 10</text>
+          <text>粉丝 50</text>
+        </view>
+      </view>
+    </view>
+    <view class="userData">
+      <view>
+        <text>总参与度 100</text>
+        <text>获得跟票数 100</text>
+        <text>获赞 200</text>
+      </view>
+      <view>
+        <text>相对准确率（历史类）</text>
+        <text>相对准确率（现代类）</text>
+      </view>
+    </view>
+    <view class="signature">
+      <text>用户签名</text>
+    </view>
+  </view>
+  <view class="postPart">
+    <view class="filterBtn">筛选</view>
+    <view class="ansList">
+      <view>目录</view>
+      <scroll-view  style="height:{{scrollViewH+'px'}}"
+                    id="scrollView"
+                    scroll-y="true">
+        <view wx:for="{{ansList}}"
+              wx:for-index="index"
+              wx:for-item="item"
+              wx:key="index"
+              class="ansItem">
+          <view>{{item.question}}</view>
+          <view>{{item.ans}}</view>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+  <InfoSetting style="display:{{tapSetting?'block':'none'}}"></InfoSetting>
+    
+</view>

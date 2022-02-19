@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents":{
+    "InfoSetting": "/pages/myinfo/components/InfoSetting/InfoSetting"
+  }
+}
