@@ -1,0 +1,94 @@
+.infoPart, .postPart{
+  position: relative;
+  width: 690rpx;
+  padding: 0 30rpx;
+  border-bottom: 2rpx solid black;
+}
+
+.headline{
+  display: flex;
+  width: 100%;
+  padding: 0rpx 0;
+  justify-content: space-between;
+}
+
+.headline p{
+  background-color: red;
+}
+
+.avatar{
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 150rpx;
+  padding: 25rpx 0;
+}
+
+.avatar image{
+  width: 150rpx;
+  height: 150rpx;
+}
+
+.userName{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: fit-content;
+  height: 150rpx;
+  margin-left: 20rpx;
+}
+
+.userName view:last-child text{
+  margin-right: 20rpx;
+}
+
+.userData{
+  position: relative;
+  width: 100%;
+  line-height: 45rpx;
+}
+
+.userData view:first-child{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.userData view:last-child{
+  display: flex;
+  flex-direction: column;
+}
+
+.signature{
+  position: relative;
+  width: 100%;
+  padding: 20rpx 0;
+}
+
+.postPart{
+  padding: 20rpx 30rpx;
+  border-bottom:0;
+}
+
+.filterBtn{
+  float: right;
+}
+
+.ansList{
+  position: relative;
+  width: 100%;
+}
+
+.ansList>view:first-child{
+  text-align: center;
+  margin-bottom: 30rpx;
+}
+
+scroll-view{
+  width: 100%;
+  scrollbar-width: 0px;
+}
+
+scroll-view .ansItem{
+  margin-bottom: 20rpx;
+}

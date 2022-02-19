@@ -14,6 +14,30 @@ const formatNumber = n => {
   return n[1] ? n : `0${n}`
 }
 
+const getWindowInfo = (selectorId)=>{
+  return new Promise(resolve=>{
+    let posObj = {
+      availWindowH: 0,
+      fromTop: 0,
+      elmHeight: 0,
+      pixelRatio: 1
+    }
+    wx.getSystemInfo({
+      success: (res) => {
+        posObj.availWindowH = res.windowHeight;
+        posObj.pixelRatio = 750.0/res.screenWidth;
+      }
+    });
+    const query = wx.createSelectorQuery();
+    query.select(selectorId).boundingClientRect(function (res) {
+      posObj.fromTop = res.top;
+      posObj.elmHeight = res.height;
+      resolve(posObj)
+    }).exec();
+  })
+}
+
 module.exports = {
-  formatTime
+  formatTime,
+  getWindowInfo
 }
