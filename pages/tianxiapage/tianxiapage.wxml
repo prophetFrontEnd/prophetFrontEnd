@@ -1,0 +1,17 @@
+<!--pages/mainpage/mainpage.wxml-->
+<view class="indexpage">
+  <view class="item item1">
+    <view class="item point">666</view>
+  </view>
+  <view class="item item2">
+    <view class="item item2_1"><p>传送门</p></view>
+    <view class="item item2_1"><p>预言</p></view>
+    <view class="item item2_1"><p>商城</p></view>
+    <view class="item item2_1"><p>任务</p></view>
+  </view>
+  <view  class="item item3">
+    <view class="item item3_1"><p>发帖</p></view>
+    <view class="item item3_1"><p>搜索</p></view>
+    <view class="item item3_1"><p>页面切换</p></view>
+  </view>
+</view>
