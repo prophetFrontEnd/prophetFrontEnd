@@ -12,6 +12,6 @@
   <view  class="item item3">
     <view class="item item3_1"><p>发帖</p></view>
     <view class="item item3_1"><p>搜索</p></view>
-    <view class="item item3_1"><p>页面切换</p></view>
+    <view class="item item3_1 change"><p>页面切换</p></view>
   </view>
 </view>

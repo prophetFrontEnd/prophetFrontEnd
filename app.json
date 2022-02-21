@@ -1,10 +1,10 @@
 {
   "pages": [
+    "pages/xinpage/xinpage",
     "pages/tianxiapage/tianxiapage",
     "pages/index/index",
     "pages/myinfo/myinfo",
     "pages/logs/logs"
-    
   ],
   "window": {
     "navigationStyle": "custom",
