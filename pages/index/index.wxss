@@ -1,19 +1,53 @@
-/**index.wxss**/
-.userinfo {
+page{
+  height:100%;
+}
+.background {
+  width: 100%;
+  height: 100%;
+  position:fixed; 
+  background-size:100% 100%;
+  z-index: -1;
+}
+.logo{
+  display:flex;                   
+  justify-content: center;        
+  align-items:center;  
+  padding-top: 40%;
+}
+.logoimg{
+  width: 60%;
+}
+.login{
+  padding-top: 30%;
+}
+.btn-uncheck{
+  border-radius: 50rpx;
+  background-color: grey;
+  width: 70%;
+  color: rgb(248, 244, 244);
+}
+.btn-check{
+  border-radius: 50rpx;
+  width: 70%;
+  background-color: #2ace38f5;
+  color: rgb(248, 244, 244);
+}
+.checkbox{
+  padding-top: 10px;
+  font-size: 12px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #aaa;
+  flex-direction: row;
+  justify-content: center;        
+  align-items:center;  
 }
-
-.userinfo-avatar {
-  overflow: hidden;
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
+.cb{
   border-radius: 50%;
+  transform:scale(0.65);
+  text-align: center;
+  width: 40rpx;
+  height: 45rpx;
 }
-
-.usermotto {
-  margin-top: 200px;
+.agreement{
+  width: 100px;
+  height: 18px;
 }

@@ -3,6 +3,7 @@
     "pages/xinpage/xinpage",
     "pages/tianxiapage/tianxiapage",
     "pages/index/index",
+    "pages/agreement/agreement",
     "pages/myinfo/myinfo",
     "pages/logs/logs"
   ],
@@ -13,6 +14,6 @@
     "navigationBarTitleText": "Weixin",
     "navigationBarTextStyle": "black"
   },
-  "style": "v2",
+
   "sitemapLocation": "sitemap.json"
 }

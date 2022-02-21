@@ -1,23 +1,30 @@
-<!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <block wx:if="{{canIUseOpenData}}">
-      <view class="userinfo-avatar" bindtap="bindViewTap">
-        <open-data type="userAvatarUrl"></open-data>
-      </view>
-      <open-data type="userNickName"></open-data>
-    </block>
-    <block wx:elif="{{!hasUserInfo}}">
-      <button wx:if="{{canIUseGetUserProfile}}" bindtap="getUserProfile"> 获取头像昵称 </button>
-      <button wx:elif="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-      <view wx:else> 请使用1.4.4及以上版本基础库 </view>
-    </block>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+<!--背景-->
+<view>
+	<image class='background' src="../../img/background.png" mode="aspectFill"></image>
+</view>
+
+<!-- logo -->
+<view class="logo">
+  <image class="logoimg" src="../../img/logo.png" mode="widthFix"></image>
+</view>
+
+<!-- 授权登录 -->
+<view class="login">
+  <button class='btn-uncheck' bindtap='showtips' wx:if="{{agree == ''}}">
+    <label>微信授权登录</label>
+  </button>
+  <button class='btn-check' bindtap="login" wx:if="{{agree != ''}}" >
+    <label>微信授权登录</label>
+  </button>
+</view>
+
+<!-- 用户协议 -->
+<view class="checkbox">
+  <checkbox-group bindchange="checkboxChange">
+    <checkbox class="cb" value="agree" checked="true"/>
+    我已阅读并同意
+  </checkbox-group>
+  <view style='color:#471edd' bindtap='toprotocol' class="agreement">
+  《用户服务协议》
   </view>
 </view>
