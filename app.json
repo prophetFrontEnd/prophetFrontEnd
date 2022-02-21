@@ -1,14 +1,18 @@
 {
-  "pages":[
-    "pages/myinfo/myinfo",
+  "pages": [
+    "pages/xinpage/xinpage",
+    "pages/tianxiapage/tianxiapage",
     "pages/index/index",
+    "pages/agreement/agreement",
+    "pages/myinfo/myinfo",
     "pages/logs/logs"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "navigationStyle": "custom",
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

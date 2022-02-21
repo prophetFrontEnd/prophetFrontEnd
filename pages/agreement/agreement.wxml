@@ -1,0 +1,16 @@
+<!--背景-->
+<view>
+	<image class='background' src="../../img/background.png" mode="aspectFill"></image>
+</view>
+
+<!-- 协议内容 -->
+<scroll-view class="agreement">
+    <text>
+        用户协议内容
+    </text>
+</scroll-view>
+
+<!-- 确认 -->
+<view class="Button">
+    <button class="button" bindtap="back">确认</button>
+</view>

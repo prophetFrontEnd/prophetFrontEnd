@@ -1,0 +1,64 @@
+/* pages/mainpage/mainpage.wxss */
+page{
+  height: 100%;
+}
+.indexpage{
+  width: 100%;
+  height: 100%;
+  background-color: tomato;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.item {
+  display: flex;
+}
+.indexpage .item1{
+  padding-left: 30rpx;
+  flex-grow: 3;
+  background-color: yellow;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.indexpage .item1 .point{
+  border-radius: 30%;
+  background-color: pink;
+}
+.indexpage .item2{
+  flex-grow: 9;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+  
+}
+.indexpage .item2 .item2_1{
+  margin-top: 110rpx;
+  width: 300rpx;
+  height: 100rpx;
+  background-color: pink;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.indexpage .item3{
+  flex-grow: 4;
+  background-color: blue;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.indexpage .item3 .item3_1{
+  align-items: center;
+  justify-content: center;
+  width: 200rpx;
+  height: 100rpx;
+  background-color: pink;
+}
+.indexpage .item3 .change{
+  height: 100%;
+}
