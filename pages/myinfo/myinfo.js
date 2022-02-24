@@ -6,6 +6,7 @@ Page({
    */
   data: {
     scrollViewH:0,
+    statusBarHeight:0,
     ansList:[
       {
         question:'问题',
@@ -61,10 +62,12 @@ Page({
     let that=this;
     let t = setTimeout(() => {
       util.getWindowInfo('#scrollView').then(res=>{
-        let scrollViewH = res.availWindowH - res.fromTop - 40.0/res.pixelRatio;
+        let scrollViewH = res.availWindowH - res.fromTop - res.statusBarHeight*2 - 40.0/res.pixelRatio;
+        let statusBarHeight = res.statusBarHeight;
         console.log(res);
         that.setData({
-          scrollViewH
+          scrollViewH,
+          statusBarHeight
         })
         clearTimeout(t);
       })

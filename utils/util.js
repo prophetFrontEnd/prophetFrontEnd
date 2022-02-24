@@ -20,12 +20,15 @@ const getWindowInfo = (selectorId)=>{
       availWindowH: 0,
       fromTop: 0,
       elmHeight: 0,
+      statusBarHeight:0,
       pixelRatio: 1
     }
     wx.getSystemInfo({
       success: (res) => {
         posObj.availWindowH = res.windowHeight;
         posObj.pixelRatio = 750.0/res.screenWidth;
+        posObj.statusBarHeight = res.statusBarHeight;
+        // console.log(res);
       }
     });
     const query = wx.createSelectorQuery();

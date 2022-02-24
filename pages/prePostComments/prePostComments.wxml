@@ -1,0 +1,110 @@
+<view class="container">
+  <view class="headLine" style="margin-top:{{statusBarHeight*2+'px'}}">
+    <view>返回</view>
+    <view>
+      <view>我要发言</view>
+      <view>按XX排序</view>
+    </view>
+  </view>
+  <view class="main">
+    <view class="departOpt">
+      <view>全部</view>
+      <view>信</view>
+      <view>不信</view>
+      <view>围观</view>
+    </view>
+    <scroll-view id="scrollView"
+                 style="height:{{scrollViewH+'px'}}"
+                 scroll-y="true">
+      <view class="commentItem">
+        <view class="author">
+          <image src="../../头像.jpg"></image>
+          <view class="authorName">
+            <text>玩家名称</text>
+            <text>2022年2月22日</text>
+          </view>
+          <view>玩家选项</view>
+        </view>
+        <view class="postTxt">
+          <view>
+            <image src="../../头像.jpg"></image>
+          </view>
+          <textarea>发言</textarea>
+        </view>
+        <view class="somebtn">
+          <view>共x条回复</view>
+          <view>跟票</view>
+          <view>分享</view>
+          <view>举报</view>
+        </view>
+      </view>
+      <view class="commentItem">
+        <view class="author">
+          <image src="../../头像.jpg"></image>
+          <view class="authorName">
+            <text>玩家名称</text>
+            <text>2022年2月22日</text>
+          </view>
+          <view>玩家选项</view>
+        </view>
+        <view class="postTxt">
+          <view>
+            <image src="../../头像.jpg"></image>
+          </view>
+          <textarea>发言</textarea>
+        </view>
+        <view class="somebtn">
+          <view>共x条回复</view>
+          <view>跟票</view>
+          <view>分享</view>
+          <view>举报</view>
+        </view>
+      </view>
+      <view class="commentItem">
+        <view class="author">
+          <image src="../../头像.jpg"></image>
+          <view class="authorName">
+            <text>玩家名称</text>
+            <text>2022年2月22日</text>
+          </view>
+          <view>玩家选项</view>
+        </view>
+        <view class="postTxt">
+          <view>
+            <image src="../../头像.jpg"></image>
+          </view>
+          <textarea>发言</textarea>
+        </view>
+        <view class="somebtn">
+          <view>共x条回复</view>
+          <view>跟票</view>
+          <view>分享</view>
+          <view>举报</view>
+        </view>
+      </view>
+      <view class="commentItem">
+        <view class="author">
+          <image src="../../头像.jpg"  mode="widthFix"></image>
+          <view class="authorName">
+            <text>玩家名称</text>
+            <text>2022年2月22日</text>
+          </view>
+          <view>玩家选项</view>
+        </view>
+        <view class="postTxt">
+          <view>
+            <image src="../../头像.jpg"></image>
+          </view>
+          <textarea>发言</textarea>
+        </view>
+        <view class="somebtn">
+          <view>共x条回复</view>
+          <view>跟票</view>
+          <view>分享</view>
+          <view>举报</view>
+        </view>
+      </view>
+      <view class="lastBar">已经到底了</view>
+    </scroll-view>
+  </view>
+</view>

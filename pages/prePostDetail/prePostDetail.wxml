@@ -1,0 +1,40 @@
+<view class="container">
+  <view class="headLine" style="margin-top:{{statusBarHeight*2+'px'}}">
+    <view>返回</view>
+    <view>...</view>
+  </view>
+  <view class="main">
+    <view class="author">
+      <image src="../../头像.jpg"></image>
+      <view class="authorName">
+        <text>A@xxx 发起了预言</text>
+        <text>2022年2月22日</text>
+      </view>
+      <view>预言结果</view>
+    </view>
+    <scroll-view id="scrollView"
+                 style="height:{{scrollViewH+'px'}}"
+                 scroll-y="true">
+      <view class="postTxt">
+        <textarea>发言</textarea>
+        <view>
+          <image src="../../头像.jpg" mode="widthFix"></image>
+          <image src="../../头像.jpg" mode="widthFix"></image>
+          <image src="../../头像.jpg" mode="widthFix"></image>
+        </view>
+      </view>
+      <view class="hotDegree">
+        <text>XX人参与了预言</text>
+        <text>分类->分区</text>
+      </view>
+      <view class="somebtn">
+        <view>信</view>
+        <view>不信</view>
+        <view>围观</view>
+        <view>分享</view>
+        <view>我要发言</view>
+        <view>评论</view>
+      </view>
+    </scroll-view>
+  </view>
+</view>

@@ -7,9 +7,8 @@
 
 .headline{
   display: flex;
-  width: 100%;
-  padding: 0rpx 0;
   justify-content: space-between;
+  width: 100%;
 }
 
 .headline p{
@@ -33,7 +32,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: fit-content;
+  width:  fit-content;
   height: 150rpx;
   margin-left: 20rpx;
 }
@@ -41,6 +40,7 @@
 .userName view:last-child text{
   margin-right: 20rpx;
 }
+
 
 .userData{
   position: relative;
