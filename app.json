@@ -1,10 +1,15 @@
 {
   "pages": [
+    "pages/sharePrePost/sharePrePost",
+    "pages/prePostComments/prePostComments",
+    "pages/prePostDetail/prePostDetail",
+    "pages/myinfo/myinfo",
+    
+    "pages/index/index",
+    
     "pages/xinpage/xinpage",
     "pages/tianxiapage/tianxiapage",
-    "pages/index/index",
     "pages/agreement/agreement",
-    "pages/myinfo/myinfo",
     "pages/logs/logs"
   ],
   "window": {
