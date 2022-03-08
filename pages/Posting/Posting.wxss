@@ -1,0 +1,84 @@
+.page{
+    height: 100%;
+    width: 100%;
+}
+.top{
+    padding-top: 15%;
+    flex-direction:row;
+    display: flex;
+    height:10%;
+    justify-content: space-between;
+    align-items: center;
+}
+.backbutton{
+    display:flexbox;
+    align-items: center;
+    justify-content: space-between;
+}
+.backbtn{
+    color: black;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+.backbtn::after{
+    border: none;
+}
+.imgbtn{
+    width: 46rpx;
+    height: 46rpx;
+}
+.fatie{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    padding-right: 13px;
+}
+.send{
+    display: flex;
+    padding-right: 10px;
+}
+.sendbtn{
+    font-size: 18px;
+    color: black;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+.tips{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5rpx 30rpx;
+    padding: 20rpx 0;
+    font-size: 23px;
+    border-bottom: 1rpx solid;
+}
+.choose{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50rpx;
+}
+
+.radio{
+    display: block;
+    padding-top: 10rpx;
+    font-size: 20px;
+}
+.explain{
+    display: block;
+    padding: 20%;
+    padding-top: 30rpx;
+    text-overflow:ellipsis;
+    word-wrap:break-word;
+    word-break: break-all;
+}
+.Texplain{
+    font-size: 15px;
+    color: rgb(76, 45, 214);
+}

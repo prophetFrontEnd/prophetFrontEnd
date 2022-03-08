@@ -6,10 +6,15 @@
     "pages/myinfo/myinfo",
     
     "pages/index/index",
-    
+    "pages/agreement/agreement",
+    "pages/Posting/Posting",
+    "pages/PrePosting/PrePosting",
+    "pages/AskPosting/AskPosting",
+    "pages/question-ask/question-ask",
+
     "pages/xinpage/xinpage",
     "pages/tianxiapage/tianxiapage",
-    "pages/agreement/agreement",
+    
     "pages/logs/logs"
   ],
   "window": {

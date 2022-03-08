@@ -47,8 +47,8 @@
         "ignoreUploadUnusedFiles": true
     },
     "compileType": "miniprogram",
-    "libVersion": "2.19.4",
-    "appid": "wx31fc9656b25ac7ce",
+    "libVersion": "2.21.4",
+    "appid": "wx563af2dc2c793fb0",
     "projectname": "NewPlatform",
     "debugOptions": {
         "hidedInDevtools": []

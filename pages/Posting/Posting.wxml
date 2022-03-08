@@ -1,0 +1,41 @@
+<!-- 金币 -->
+
+<view class="top">
+    <view class="backbutton">
+        <button class="backbtn" open-type='openSetting'>
+            <image class="imgbtn" src="../../img/返回键.png"></image>
+            <view>返回</view>
+        </button>
+    </view>
+
+    <view class="fatie">
+        发帖
+    </view>
+
+    <view class="send">
+        <button class="sendbtn" bindtap="send">
+            发送
+        </button>
+    </view>
+</view>
+
+<view class="tips">
+    请选择发帖类型
+</view>
+
+<view class="choose">
+    <radio-group class="rgroup" bindchange="radioChange">
+        <label wx:for="{{items}}">
+            <radio value="{{item.type}}" checked="{{item.checked}}" class="radio">{{item.value}}</radio>
+        </label>
+    </radio-group>
+</view>
+
+<view class="explain">
+    <text class="Texplain" bindtap="predown" wx:if="{{type == 'pre'}}">
+        预言贴是xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    </text>
+    <text class="Texplain" bindtap="quedown" wx:if="{{type == 'que'}}">
+        提问贴是xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    </text>
+</view>

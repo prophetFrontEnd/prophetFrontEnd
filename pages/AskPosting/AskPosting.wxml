@@ -1,0 +1,121 @@
+
+<view class="top">
+    <view class="backbutton">
+        <button class="backbtn" open-type='openSetting' bindtap="back">
+            <image class="imgbtn" src="../../img/返回键.png"></image>
+            <view>返回</view>
+        </button>
+    </view>
+
+    <view class="fatie">
+        发提问帖
+    </view>
+
+    <view class="send">
+        <button class="sendbtn" bindtap="send">
+            发送
+        </button>
+    </view>
+</view>
+
+<scroll-view style="height: 90%;" scroll-y="true">
+    <view class="question-form">
+        <view class="question-input-area">
+            <!-- 标题 -->
+            <view class="question-title-wrap">
+                <input class="question-title" placeholder="请输入提问标题" maxlength="40" placeholder-style="font-size:18px;" bindinput="handleTitleInput"></input>
+                <view class="title-input-counter">{{titleCount}}/40</view>
+            </view>
+
+            <!-- 正文 -->
+            <view class="weui-cells weui-cells_after-title">
+                <view class="weui-cell">
+                    <view class="weui-cell__bd">
+                        <textarea class="weui-textarea" placeholder="请输入提问的正文内容。" maxlength="500" placeholder-style="font-size:14px;" style="height: 12rem" bindinput="handleContentInput" />
+                    <view class="weui-textarea-counter">{{contentCount}}/500</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class="choose">
+        <view>
+            <button class="choosebtn" bindtap="uploadimg">
+                <image src="../../img/相册.png" class="chooseimg"></image>
+                <view>上传图片</view>
+            </button>
+        </view>
+        
+
+        <view class="upload">
+            <block wx:for="{{files}}" wx:key="{{index}}">
+                    <image src="{{item}}" bindtap="previewImage" data-index="{{index}}" class="uploadimg" mode="aspectFill"/>
+            </block>
+        </view>
+        
+    </view>
+
+
+    <view style="flex-direction: row; display: flex;border-bottom: 1rpx solid #504c4c;margin: 10rpx 30rpx;padding: 15rpx;">
+        <view style="margin-left: 5rpx;">发帖选项</view>
+        <view style="margin-left: 20px;border: 1rpx solid;border-radius: 3px;padding-left: 5rpx;padding-right: 5rpx;">?</view>
+    </view>
+
+    <view style="margin: 0 5px; flex-direction: row; display: flex;">
+        <view class="section">
+            <picker bindchange="bindPickerChange1" value="{{index1}}" range="{{category}}">
+            <view class="picker">
+                类别选择：{{category[index1]}}
+            </view>
+            </picker>
+        </view>
+
+        <view class="section" wx:if="{{category[index1] == '历史类'}}">
+            <picker bindchange="bindPickerChange2" value="{{index2}}" range="{{history}}">
+            <view class="picker">
+                分区选择：{{history[index2]}}
+            </view>
+            </picker>
+        </view>
+
+        <view class="section" wx:if="{{category[index1] == '现代类'}}">
+            <picker bindchange="bindPickerChange2" value="{{index2}}" range="{{modern}}">
+            <view class="picker">
+                分区选择：{{modern[index2]}}
+            </view>
+            </picker>
+        </view>
+    </view>
+    
+    <view  class="word-input">
+        <input class="question-title" placeholder="请输入关键词" maxlength="40" placeholder-style="font-size:16px;" bindinput="handleWordInput"></input>
+        <view class="title-input-counter">{{wordCount}}/40</view>
+    </view>
+
+    <view  class="word-input">
+        <input class="question-title" placeholder="预计出结果时间" maxlength="20" placeholder-style="font-size:16px;" bindinput="handleTimeInput"></input>
+        <view class="title-input-counter">{{timeCount}}/20</view>
+    </view>
+
+    <view style="display: flex;">
+        <picker bindchange="timePickerChange" mode="date" >
+            <view class="picker">
+                预言截止时间：{{endtime}}
+            </view>
+        </picker>
+    </view>
+    
+    <view style="flex-direction: row; display: flex;margin: 8px 15px;">
+        <view style="margin-top: 7rpx;">难以界定的结果：</view>
+        <radio-group style="flex-direction: row;">
+            <radio class="radio" catchtap="checkedTap" checked="{{checked}}">是</radio>
+        </radio-group>
+    </view>
+
+    
+
+</scroll-view>
+
+
+
