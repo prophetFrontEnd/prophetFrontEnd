@@ -1,0 +1,31 @@
+.container{
+  width: 690rpx;
+  padding: 30rpx;
+}
+.title{
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-size: 40rpx;
+}
+
+.title view{
+  margin-left: 20rpx;
+}
+
+.areasOpts{
+  position: relative;
+  margin-top: 100rpx;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: greenyellow;
+}
+
+.areasOpts view{
+  padding: 2rpx 10rpx;
+  margin: 10rpx 15rpx;
+  background-color: rgb(90, 201, 221);
+}

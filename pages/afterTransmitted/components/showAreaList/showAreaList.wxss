@@ -1,0 +1,47 @@
+scroll-view{
+  width: 100%;
+  margin-top: 20rpx;
+}
+.postItem{
+  width: 650rpx;
+  padding: 20rpx;
+  height: fit-content;
+  background-color: yellowgreen;
+  border-radius: 10rpx;
+  margin: 10rpx 0;
+}
+
+.postTxt{
+  position: relative;
+  /* left: 50%;
+  transform: translate(-50%, 10%); */
+  width: 100%;
+  margin: 10rpx 0;
+
+}
+
+.postTag{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: fit-content;
+  background-color: rgb(78, 200, 209);
+  color:white;
+}
+
+.postTxt textarea{
+  position: relative;
+  width: 100%;
+  height: fit-content;
+}
+
+.pics{
+  display: flex;
+  justify-content: space-around;
+  height: fit-content;
+  margin: 10rpx;
+}
+
+.pics image{
+  height: 150rpx;
+}

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {},
+  "usingComponents":{
+    "showAreaList":"/pages/afterTransmitted/components/showAreaList/showAreaList"
+  }
+}
