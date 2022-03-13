@@ -1,0 +1,54 @@
+<view>
+  <scroll-view style="height: {{scrollHeight+'px'}};"
+               id="scrollView"
+               scroll-y="true">
+    <view class="postItem">
+      <view class="postTxt">
+        <textarea>帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容</textarea>
+        <view class="postTag">预言结果</view>
+      </view>
+      <view class="pics">
+        <image mode="aspectFit" src="/头像.jpg"></image>
+        <image mode="aspectFit" src="/头像.jpg"></image>
+        <image mode="aspectFit" src="/头像.jpg"></image>
+      </view>
+      <view class="aboutPost">参与人次(+上榜情况)</view>
+    </view>
+    <view class="postItem">
+      <view class="postTxt">
+        <textarea>帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容</textarea>
+        <view class="postTag">预言结果</view>
+      </view>
+      <view class="pics">
+        <image mode="aspectFit" src="/头像.jpg"></image>
+        <image mode="aspectFit" src="/头像.jpg"></image>
+        <image mode="aspectFit" src="/头像.jpg"></image>
+      </view>
+      <view class="aboutPost">参与人次(+上榜情况)</view>
+    </view>
+    <view class="postItem">
+      <view class="postTxt">
+        <textarea>帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容</textarea>
+        <view class="postTag">预言结果</view>
+      </view>
+      <view class="pics">
+        <image mode="aspectFit" src="/头像.jpg"></image>
+        <image mode="aspectFit" src="/头像.jpg"></image>
+        <image mode="aspectFit" src="/头像.jpg"></image>
+      </view>
+      <view class="aboutPost">参与人次(+上榜情况)</view>
+    </view>
+    <view class="postItem">
+      <view class="postTxt">
+        <textarea>帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容帖子内容</textarea>
+        <view class="postTag">预言结果</view>
+      </view>
+      <view class="pics">
+        <image mode="aspectFit" src="/头像.jpg"></image>
+        <image mode="aspectFit" src="/头像.jpg"></image>
+        <image mode="aspectFit" src="/头像.jpg"></image>
+      </view>
+      <view class="aboutPost">参与人次(+上榜情况)</view>
+    </view>
+  </scroll-view>
+</view>

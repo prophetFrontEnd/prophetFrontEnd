@@ -1,19 +1,20 @@
 {
   "pages": [
+    "pages/transmission/transmission",
+    "pages/afterTransmitted/afterTransmitted",
+    
+    "pages/tianxiapage/tianxiapage",
+    "pages/agreement/agreement",
+    "pages/index/index",
     "pages/sharePrePost/sharePrePost",
     "pages/prePostComments/prePostComments",
     "pages/prePostDetail/prePostDetail",
     "pages/myinfo/myinfo",
-    
-    "pages/index/index",
-    "pages/agreement/agreement",
     "pages/Posting/Posting",
     "pages/PrePosting/PrePosting",
     "pages/AskPosting/AskPosting",
     "pages/question-ask/question-ask",
-
     "pages/xinpage/xinpage",
-    "pages/tianxiapage/tianxiapage",
     
     "pages/logs/logs"
   ],

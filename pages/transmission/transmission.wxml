@@ -1,0 +1,5 @@
+<view class="container">
+  <view>传送门</view>
+  <view bindtap="transmit" data-title="历史类">历史类</view>
+  <view bindtap="transmit" data-title="现代类">现代类</view>
+</view>

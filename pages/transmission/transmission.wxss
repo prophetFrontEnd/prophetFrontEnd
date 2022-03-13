@@ -1,0 +1,21 @@
+.container{
+  width: 750rpx;
+  height: 100%;
+  font-size: 40rpx;
+}
+
+.container view{
+  position: relative;
+  width: fit-content;
+  margin-bottom: 50rpx;
+  left: 50%;
+  top: 30%;
+  padding: 10rpx 50rpx;
+  border-radius: 5rpx;
+  transform: translate(-50%,0%);
+  background-color: greenyellow;
+}
+
+.container view:first-child{
+  background-color: rgb(109, 194, 228);
+}
