@@ -13,7 +13,8 @@
     "pages/Posting/Posting",
     "pages/PrePosting/PrePosting",
     "pages/AskPosting/AskPosting",
-    "pages/question-ask/question-ask",
+    "pages/preSubsequent/preSubsequent",
+    "pages/prophecylist/prophecylist",
     "pages/xinpage/xinpage",
     
     "pages/logs/logs"

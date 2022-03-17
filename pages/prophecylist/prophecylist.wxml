@@ -1,0 +1,21 @@
+<view class="top">
+    <view class="backbutton">
+        <button class="backbtn" open-type='openSetting'>
+            <image class="imgbtn" src="../../img/返回键.png"></image>
+            <view>返回</view>
+        </button>
+    </view>
+</view>
+
+<view class="tips">
+    预言榜
+</view>
+
+<view class="list">
+    <button class="list_btn">人气玩家榜</button>
+    <button class="list_btn">人气帖</button>
+    <button class="list_btn">天机榜（历史）</button>
+    <button class="list_btn">天机榜（现代）</button>
+    <button class="list_btn">预言笑话榜</button>
+    <button class="list_btn">骇人预言榜</button>
+</view>
