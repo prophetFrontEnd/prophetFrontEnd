@@ -35,21 +35,14 @@
                 },
                 {
                     "name": "",
+                    "pathName": "pages/question-ask/question-ask",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
                     "pathName": "pages/AskPosting/AskPosting",
-                    "query": "",
-                    "launchMode": "default",
-                    "scene": null
-                },
-                {
-                    "name": "",
-                    "pathName": "pages/preSubsequent/preSubsequent",
-                    "query": "",
-                    "launchMode": "default",
-                    "scene": null
-                },
-                {
-                    "name": "",
-                    "pathName": "pages/prophecylist/prophecylist",
                     "query": "",
                     "scene": null,
                     "launchMode": "default"

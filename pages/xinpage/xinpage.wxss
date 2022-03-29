@@ -16,8 +16,9 @@ page{
   display: flex;
 }
 .indexpage .item1{
+  padding-top: 30rpx;
   padding-left: 30rpx;
-  flex-grow: 3;
+  height: 80rpx;
   background-color: yellow;
   flex-direction: row;
   justify-content: flex-start;
@@ -46,7 +47,7 @@ page{
 }
 
 .indexpage .item3{
-  flex-grow: 4;
+  height:170rpx;
   background-color: blue;
   flex-direction: row;
   justify-content: space-between;

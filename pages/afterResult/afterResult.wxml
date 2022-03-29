@@ -1,0 +1,38 @@
+<!--pages/mainpage/mainpage.wxml-->
+<view class="indexpage">
+  <view class="item item1">
+    <view class="item point">666</view>
+  </view>
+  <view class="item item2">
+    <view class="item item2_1">
+      <view class="item item2_1_1">返回</view>
+      <view class="item item2_1_2">预言结果</view>
+      <view class="item item2_1_3"></view>
+    </view>
+    <view class="item item2_2">原预言/提问</view>
+    <view class="item item2_3">
+      <view class="item item2_3_1">      
+      <view class="item item2_3_1_1">结果</view>
+      <view class="item item2_3_1_1">你的选择x</view></view>
+      <view class="item item2_3_2">公布时间</view>
+    </view>
+    <view class="item item2_4">解析证据的正文</view>
+    <view class="item item2_5">证明图片</view>
+    <view class="item item2_6">
+      <view class="item item2_6_1">质疑此结果</view>
+      <view class="item item2_6_2">？</view>
+    </view>
+    <view class="item item2_7">
+      <view class="item item2_7_1">图</view>
+      <view class="item item2_7_2">
+        <view class="item item2_7_2_1">你认可的结果</view>
+        <view class="item item2_7_2_2">质疑的原因(文）</view>
+      </view>
+    </view>
+  </view>
+  <view  class="item item3">
+    <view class="item item3_1"></view>
+    <view class="item item3_1"></view>
+    <view class="item item3_1 change"></view>
+  </view>
+</view>
