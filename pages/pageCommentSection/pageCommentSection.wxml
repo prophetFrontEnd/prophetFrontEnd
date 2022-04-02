@@ -1,0 +1,51 @@
+<!--pages/mainpage/mainpage.wxml-->
+<view class="indexpage">
+  <view class="item item1">
+    <view class="item point">666</view>
+  </view>
+  <view class="item item2">
+    <view class="item item2_1">
+      <view class="item item2_1_1">返回</view>
+      <view class="item item2_1_2">我要发言</view>
+      <view class="item item2_1_3">按xx排序</view>
+    </view>
+    <view class="item item2_4">
+      <view class="item item2_4_1">全部</view>
+      <view class="item item2_4_1">1</view>
+      <view class="item item2_4_1">2</view>
+      <view class="item item2_4_1">围观</view>
+      <view class="item item2_4_1">其他</view>
+    </view>
+    <view class="item item2_2">
+      <view class="item item2_2_1">头像</view>
+       <view class="item item2_2_2">
+        <view class="item item2_2_2_1">玩家名字</view>
+        <view class="item item2_2_2_2">发言时间</view>
+      </view>
+      <view class="item item2_2_3">
+      提问结果
+      </view>
+    </view>
+    <view class="item item2_3">
+      <view class="item item2_3_1">图片</view>
+      <view class="item item2_3_2">文字</view>
+    </view>
+
+    <view class="item item2_5">
+    <view class="item item2_5_1">共？条回复</view>
+    <view class="item item2_5_2">跟票</view>
+    <view class="item item2_5_2">分享</view>
+    <view class="item item2_5_2">举报</view>
+    </view>
+    <view class="item item2_6">
+      <view class="item item2_6_1">已经到底了</view>
+
+    </view>
+
+  </view>
+  <view  class="item item3">
+    <view class="item item3_1"></view>
+    <view class="item item3_1"></view>
+    <view class="item item3_1 change"><p>页面切换</p></view>
+  </view>
+</view>

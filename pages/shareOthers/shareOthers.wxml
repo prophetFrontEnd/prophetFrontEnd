@@ -1,0 +1,47 @@
+<!--pages/mainpage/mainpage.wxml-->
+<view class="indexpage">
+  <view class="item item1">
+    <view class="item point">666</view>
+  </view>
+  <view class="item item2">
+    <view class="item item2_1">
+      <view class="item item2_1_1">返回</view>
+      <view class="item item2_1_2">...</view>
+    </view>
+    <view class="item item2_2">
+      <view class="item item2_2_1">头像</view>
+       <view class="item item2_2_2">
+        <view class="item item2_2_2_1">玩家名字</view>
+        <view class="item item2_2_2_2">分享时间</view>
+      </view>
+      <view class="item item2_2_3">
+      <view class="item item2_2_3_1"></view>
+      <view class="item item2_2_3_1">分享了xxx的发言</view>
+      </view>
+    </view>
+    <view class="item item2_4">发言正文</view>
+    <view class="item item2_3">
+      <view class="item item2_3_1">
+        <view class="item item2_3_1_1">xxx的预言</view>
+        <view class="item item2_3_1_1">预言结果</view>
+      </view>
+      <view class="item item2_3_2">
+        <view class="item item2_3_2_1">原预言正文</view>
+      </view>
+      <view class="item item2_3_3">
+        <view class="item item2_3_3_1">？人参与了预言（+上榜）</view>
+        <view class="item item2_3_3_2">原贴</view>
+      </view>
+    </view>
+    <view class="item item2_6">
+      <view class="item item2_6_2">评论</view>
+      <view class="item item2_6_3">分享</view>
+    </view>
+
+  </view>
+  <view  class="item item3">
+    <view class="item item3_1"></view>
+    <view class="item item3_1"></view>
+    <view class="item item3_1 change"><p>页面切换</p></view>
+  </view>
+</view>

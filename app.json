@@ -1,8 +1,13 @@
 {
   "pages": [
+    "pages/afterResult/afterResult",
+    "pages/beforeResult/beforeResult",
+    "pages/shareOthers/shareOthers",
+    "pages/shareMyself/shareMyself",
+    "pages/pageCommentSection/pageCommentSection",
+    "pages/seePost/seePost",
     "pages/transmission/transmission",
     "pages/afterTransmitted/afterTransmitted",
-    
     "pages/tianxiapage/tianxiapage",
     "pages/agreement/agreement",
     "pages/index/index",
@@ -13,8 +18,7 @@
     "pages/Posting/Posting",
     "pages/PrePosting/PrePosting",
     "pages/AskPosting/AskPosting",
-    "pages/preSubsequent/preSubsequent",
-    "pages/prophecylist/prophecylist",
+    "pages/question-ask/question-ask",
     "pages/xinpage/xinpage",
     
     "pages/logs/logs"
