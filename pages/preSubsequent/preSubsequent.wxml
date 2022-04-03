@@ -1,0 +1,21 @@
+<view class="top">
+    <view class="backbutton">
+        <button class="backbtn" open-type='openSetting'>
+            <image class="imgbtn" src="../../img/返回键.png"></image>
+            <view>返回</view>
+        </button>
+    </view>
+</view>
+
+
+<view class="tips">
+    预言后续
+</view>
+
+<view class="choose">
+    <radio-group class="rgroup" bindchange="radioChange">
+        <label wx:for="{{items}}">
+            <radio value="{{item.type}}" checked="{{item.checked}}" class="radio">{{item.value}}</radio>
+        </label>
+    </radio-group>
+</view>
