@@ -5,7 +5,9 @@
       <view bindtap="tapSetting">设置</view>
     </view>
     <view class="avatar">
-      <image src="../../头像.jpg"></image>
+      <div class="touXiangKuang">
+        <image src="cloud://stu21csykf-7glvtu0y3905f887.7374-stu21csykf-7glvtu0y3905f887-1305368009/image/预览头像.png"></image>
+      </div>
       <view class="userName">
         <view>昵称 女</view>
         <view>
