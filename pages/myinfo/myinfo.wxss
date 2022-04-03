@@ -1,8 +1,20 @@
+page{
+  background-image: url(https://7374-stu21csykf-7glvtu0y3905f887-1305368009.tcb.qcloud.la/image/%E6%9C%80%E5%BA%95%E4%B8%8B%E7%9A%84%E8%83%8C%E6%99%AF%EF%BC%88%E4%B8%8D%E5%8A%A0%E7%99%BD%E8%89%B2%E8%99%9A%E5%8C%96.png?sign=4e3430b767a056f81a68611c3192676f&t=1648969454);
+}
+
 .infoPart, .postPart{
   position: relative;
-  width: 690rpx;
-  padding: 0 30rpx;
+  width: 650rpx;
+  padding: 20rpx 50rpx 0 50rpx;
   border-bottom: 2rpx solid black;
+}
+
+.infoPart{
+  background-image: url(https://7374-stu21csykf-7glvtu0y3905f887-1305368009.tcb.qcloud.la/image/%E5%90%8D%E7%89%87%E8%83%8C%E6%99%AF.png?sign=7230d3cc62fc0d7998a8bdc76c07ec05&t=1648968786);
+  background-repeat: no-repeat;
+  background-size: 95% 100%;
+  background-position: center;
+  z-index: -10;
 }
 
 .headline{
@@ -23,9 +35,23 @@
   padding: 25rpx 0;
 }
 
-.avatar image{
-  width: 150rpx;
+.touXiangKuang{
+  width:150rpx;
   height: 150rpx;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  overflow: hidden;
+  background-image: url(https://7374-stu21csykf-7glvtu0y3905f887-1305368009.tcb.qcloud.la/image/%E5%A4%B4%E5%83%8F%E6%A1%86.png?sign=ad302d953447961371929183e2699337&t=1648968180);
+}
+
+.touXiangKuang image{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 90%;
+  z-index: -1;
 }
 
 .userName{
@@ -66,7 +92,7 @@
 }
 
 .postPart{
-  padding: 20rpx 30rpx;
+  /* padding: 20rpx 30rpx; */
   border-bottom:0;
 }
 
